@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bill_formatter"
+version = "0.0.1"
+authors = [
+  { name="Michael Panzer", email="michaelpanzer04@gmail.com" },
+]
+description = "Formats Hawaii state legislature bills into MS docx formatt"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+#add urls 
+"Homepage" = "https://github.com/MichaelPanzer/Hawaii-Bill-Parser.git"
+"Bug Tracker" = "https://github.com/MichaelPanzer/Hawaii-Bill-Parser.git/issues"
