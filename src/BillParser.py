@@ -6,12 +6,6 @@ from docxtpl import RichText
 from docxcompose.composer import Composer
 import re
 
-BILL_TEMPLATE_DIR = r"\Documents\BillTemplate.docx"
-HEADER_TEMPLATE_DIR = r"\Documents\HeaderTemplate.docx"
-
-#https://www.capitol.hawaii.gov/sessions/session2023/hearingnotices/HEARING_EEP-WAL_03-16-23_.HTM
-#SB 285
-
 class Bill:
     
 
@@ -71,8 +65,8 @@ class Bill:
     
     
 def create_final_document(date, bill_data, bill_number_list,):
-    template = DocxTemplate(BILL_TEMPLATE_DIR)
-    output_doc = DocxTemplate(HEADER_TEMPLATE_DIR)
+    template = DocxTemplate(r"Documents\BillTemplate.docx")
+    output_doc = DocxTemplate(r"Documents\HeaderTemplate.docx")
 
     #add date to header
     output_doc.render({ 'date' :  date})
