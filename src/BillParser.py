@@ -7,7 +7,6 @@ from docxcompose.composer import Composer
 import re
 
 class Bill:
-    
 
 
     def __init__(self, chamber="", committee_names = [""], date="", time="", number="", short_title="", description="", text_link="", status_link="", hearing_link=""):
