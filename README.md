@@ -7,4 +7,4 @@ Step 2:
 
 
 
-Follow the prompts to generate a .docx file located at Documents/Output.docx
+Follow the prompts to generate a .docx file located at the specified directory
