@@ -1,12 +1,15 @@
 
 Step 1:
-    Navigate to the Hawaii-Bill-Parser directory in cmd.
+    Install the recomended extensions
 
 Step 2: 
-    Install dependecies with the command "python3 pip install -r requirements.txt"
+    Navigate to src/main.py and press the play icon in the upper right to run the program
 
 Step 2:
-    Run the program with "python main.py"
+    Follow the prompts to generate the .docx file in the Output folder. New files with the same name will overwrite previous files.
+
+Step 3: 
+    Right click on the desired .docx file and press the download button in the dropdown menu. 
 
 
 
