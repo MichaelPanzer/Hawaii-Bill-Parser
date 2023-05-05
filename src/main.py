@@ -25,7 +25,7 @@ def main():
 
     final_doc = BillParser.create_final_document(date, bill_data, target_bills)
 
-    final_doc.save("Output/" + output_name + ".docx")
+    final_doc.save(r"Output/" + output_name + r".docx")
 
 
 
