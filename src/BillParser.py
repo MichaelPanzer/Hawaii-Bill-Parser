@@ -64,8 +64,8 @@ class Bill:
     
     
 def create_final_document(date, bill_data, bill_number_list,):
-    template = DocxTemplate(r"Documents\BillTemplate.docx")
-    output_doc = DocxTemplate(r"Documents\HeaderTemplate.docx")
+    template = DocxTemplate(r"Documents/BillTemplate.docx")
+    output_doc = DocxTemplate(r"Documents/HeaderTemplate.docx")
 
     #add date to header
     output_doc.render({ 'date' :  date})

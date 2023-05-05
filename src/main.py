@@ -19,13 +19,13 @@ def main():
 
     target_bills = BillParser.parse_input(target_bills)
 
-    output_dir = input("Enter the desired filepath of the generated .docx file: ")
+    output_name = input("Enter the desired name of the generated .docx file: ")
 
 
 
     final_doc = BillParser.create_final_document(date, bill_data, target_bills)
 
-    final_doc.save(output_dir)
+    final_doc.save("Output/" + output_name + ".docx")
 
 
 
